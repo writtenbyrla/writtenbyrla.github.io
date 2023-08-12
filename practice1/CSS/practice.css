@@ -1,0 +1,32 @@
+header{
+    position: fixed;
+    width: 100vw;
+    display: flex;
+}
+
+.header-content{
+    width: 100vw;
+    height: 130px;
+    border: 1px solid gray;
+    display: flex;
+    align-items: center;
+} 
+
+.header-content img {
+    width:200px;
+    padding: 10px;
+    display:flex;
+    justify-content: center;
+}
+
+.header-content span{
+    width: 500px;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+main{
+    padding-top: 150px;
+    
+} 
