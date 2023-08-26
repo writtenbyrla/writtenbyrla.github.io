@@ -8,11 +8,14 @@
   </head>
   <body>
     <div class="main-page">
-      <div class="header">
-        <div class="logo">
+
+      <div class="header-section">
+        <div class="header" id="logo">
           <img src="resources/logo.jpg">
+
         </div>
-        <div class="menu">
+
+        <div class="header" id="menu">
           <div id="mypage">마이 페이지</div>
           <div id="board">자유 게시판</div>
           <div id="studygroup">스터디 그룹</div>
@@ -29,18 +32,18 @@
             <div id="user3">user3</div>
             <div id="user4">user4</div>
             <div id="user5">user5</div>
-            <div id="user6">user6</div>
-            <div id="user7">user7</div>
-            <div id="user8">user8</div>
+
           </div>
         </div>
 
         <div class="section" id="section2">
-         
-          <input type="text" placeholder="검색어를 입력하세요." />
-          <input type="submit" value="검색" />
-        
-          <div class="section" id="news">
+          <form id="section2-search">
+            <input type="text" id="search" placeholder="검색어를 입력하세요." />
+            <button><img src="resources/search.png"></button>
+            <!-- <input type="submit" value="검색" /> -->
+          </form>
+
+          <div class="news-section" id="news">
             <div class="news1">
               <div>인기글1</div>
               <div>인기글2</div>
