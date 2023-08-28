@@ -8,13 +8,13 @@
   </head>
   <body>
     <div class="main-page">
-
+      <!-- 화면 상단(로고, 메뉴) -->
       <div class="header-section">
+        <!-- 로고영역 -->
         <div class="header" id="logo">
-          <img src="resources/logo.jpg">
-
+          <img src="resources/logo.jpg" />
         </div>
-
+        <!-- 메뉴 -->
         <div class="header" id="menu">
           <div id="mypage">마이 페이지</div>
           <div id="board">자유 게시판</div>
@@ -23,7 +23,9 @@
         </div>
       </div>
 
+      <!-- 메인페이지 하단 -->
       <div class="main-section">
+        <!-- 왼쪽 메뉴 -->
         <div class="section" id="section1">
           <div class="section" id="rank-head">랭킹</div>
           <div class="section" id="rank">
@@ -32,16 +34,22 @@
             <div id="user3">user3</div>
             <div id="user4">user4</div>
             <div id="user5">user5</div>
-
           </div>
         </div>
 
+        <!-- 메인페이지 -->
         <div class="section" id="section2">
-          <form id="section2-search">
-            <input type="text" id="search" placeholder="검색어를 입력하세요." />
-            <button><img src="resources/search.png"></button>
-            <!-- <input type="submit" value="검색" /> -->
-          </form>
+          <div class="searchsection">
+            <form id="section2-search">
+              <input
+                type="text"
+                id="search"
+                placeholder="검색어를 입력하세요."
+              />
+              <button><img src="resources/search.png" /></button>
+              <!-- <input type="submit" value="검색" /> -->
+            </form>
+          </div>
 
           <div class="news-section" id="news">
             <div class="news1">
@@ -57,11 +65,14 @@
               <div>최신글4</div>
               <div>최신글5</div>
             </div>
-            
           </div>
         </div>
 
+        <!-- 오른쪽 메뉴 -->
         <div class="section" id="section3">
+          <div class="myimg">
+            <img src="resources/로고안경2.png" />
+          </div>
           <div class="myinfo">
             <div class="mystudy">내 스터디</div>
             <div class="myweight">내 몸무게</div>
