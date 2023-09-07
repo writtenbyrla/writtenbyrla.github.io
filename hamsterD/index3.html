@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>계정생성</title>
+
+    <link rel="stylesheet" href="css/style3.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="title">
+        <img src="resources/로고안경.png" />
+        <h1>Create Account</h1>
+      </div>
+
+      <form action="index2.html">
+        <input
+          type="email"
+          id="email"
+          name="email"
+          placeholder="Email"
+          required
+        />
+        <input
+          type="text"
+          id="username"
+          name="username"
+          placeholder="Username"
+          required
+        />
+
+        <span id="idCheck"></span>
+
+        <input
+          type="password"
+          id="password"
+          name="password"
+          placeholder="Password"
+          required
+        />
+        <span id="pwCheck"></span>
+
+        <button id="next">SIGN UP</button>
+      </form>
+    </div>
+
+    <script src="js/regExp.js"></script>
+  </body>
+</html>
