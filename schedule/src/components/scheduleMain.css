@@ -1,0 +1,46 @@
+.content {
+  display: flex;
+  justify-content: center;
+}
+.left-section {
+  width: 500px;
+  height: 100vh;
+  margin: 10px;
+  /* border: 1px solid lightcoral; */
+}
+
+.studyGroup {
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 1px solid gray; */
+}
+.calendar {
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+  /* border: 1px solid lightseagreen; */
+}
+.react-calendar {
+  width: 420px;
+  height: 320px;
+  min-width: 350px;
+}
+
+.right-section {
+  width: 500px;
+  height: 100vh;
+  margin: 10px;
+  /* border: 1px solid lightcoral; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 80px;
+}
+
+.right-section table {
+  width: 450px;
+  min-width: 350px;
+}

@@ -1,0 +1,63 @@
+.calendar {
+  background-color: beige;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.head {
+  /* border: 1px solid gray; */
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+button {
+  width: 50px;
+}
+.selectedYM {
+  width: 100px;
+  height: 30px;
+  margin-left: 10px;
+  margin-right: 10px;
+  text-align: center;
+  align-self: center;
+  /* border: 1px solid gray; */
+}
+
+.body {
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid pink;
+}
+
+.week {
+  width: 500px;
+  display: flex;
+}
+
+.weekrow {
+  width: calc(500px / 7);
+  text-align: center;
+  border: 1px solid gray;
+}
+
+.day {
+  width: 500px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid mediumaquamarine;
+}
+.dayrow {
+  height: 100%;
+  display: flex;
+  text-align: center;
+}
+.dayitem {
+  width: calc(500px / 7);
+  border: 1px solid black;
+}
