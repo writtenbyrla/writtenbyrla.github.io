@@ -1,6 +1,6 @@
 //import Calendar from "./components/calendar";
 import Main from "./components/scheduleMain";
-//import Register from "./components/registerSchedule";
+// import Register from "./components/registerSchedule";
 
 function App() {
   return (
