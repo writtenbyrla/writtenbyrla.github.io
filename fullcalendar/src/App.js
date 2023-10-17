@@ -26,11 +26,25 @@ const App = () => {
     }
   };
 
+  const handleAddEvent = () => {
+    console.log("add event");
+  };
+
   return (
     <>
       <FullCalendar
         plugins={[dayGridPlugin, interactionPlugin]}
         initialView="dayGridMonth"
+        headerToolbar={{
+          start: "title",
+          end: "today custom prev next",
+        }}
+        customButtons={{
+          custom: {
+            text: "add",
+            click: handleAddEvent,
+          },
+        }}
         weekends={false}
         events={schedule}
         dateClick={handleDateClick}
